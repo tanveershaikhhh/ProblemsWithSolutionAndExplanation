@@ -17,7 +17,7 @@ public class CurrencyFormatter {
         NumberFormat india = new DecimalFormat("###,###.00");
         NumberFormat china = NumberFormat.getCurrencyInstance(Locale.CHINA);
         NumberFormat france = NumberFormat.getCurrencyInstance(Locale.FRANCE);
-        // Write your code here.
+       
         
         System.out.println("US: " + us.format(payment));
         System.out.println("India: Rs." + india.format(payment));
